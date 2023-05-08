@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#nav {
+  background-color: rgb(161, 159, 159) !important;
+  width: 100%;
+}
+.my-nav {
+  padding: 20px;
+  min-height: 40vh;
+  width: 100%;
+  background-image: url("images/Austin.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#media-card {
+  box-shadow: 0 10px 20px rgb(107, 107, 107);
+  border: 1px solid rgb(169, 168, 168);
+  margin: 30px;
+}
+.projects-header {
+  color: rgb(87, 87, 87);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  width: 90%;
+  padding-left: 30px;
+}
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  margin: 20px;
+}
+.personal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+.personal-pic {
+  height: 8rem;
+  border-radius: 4rem;
+}
+.title {
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+}
+.logos-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logos-container article {
+  color: rgb(87, 87, 87);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+}
+.logo {
+  height: 3rem;
+  margin: 20px;
+}
+.experience-card {
+  background-color: rgb(244, 240, 240);
+  width: 80%;
+  border-radius: 1rem;
+  box-shadow: 0 0 50px gray;
+  margin: 30px;
+}
+.footer {
+  min-height: 25vh;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  background-color: rgb(146, 144, 144);
+  color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-section {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 25vh;
+}
+.footer-icon {
+  width: 3.5rem;
+  margin: 15px;
+}
+.footer-personal-img {
+  height: 5rem;
+  border-radius: 2.5rem;
+  margin-bottom: 30px;
+}

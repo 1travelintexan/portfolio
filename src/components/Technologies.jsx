@@ -1,0 +1,27 @@
+import reactImg from "../assets/react.png";
+import htmlImg from "../assets/html.png";
+import cssImg from "../assets/css.png";
+import tsImg from "../assets/ts.png";
+import nodeImg from "../assets/nodeJsLogo.png";
+import gitImg from "../assets/git.png";
+import viteImg from "../assets/vite.png";
+
+function Technologies() {
+  return (
+    <div className="logos-container">
+      <article>Technologies:</article>
+      <div className="logos-div">
+        {" "}
+        <img src={reactImg} alt="react logo" className="logo" />
+        <img src={tsImg} alt="ts logo" className="logo" />
+        <img src={htmlImg} alt="html logo" className="logo" />
+        <img src={cssImg} alt="css logo" className="logo" />
+        <img src={nodeImg} alt="node logo" className="logo" />
+        <img src={gitImg} alt="git logo" className="logo" />
+        <img src={viteImg} alt="vite logo" className="logo" />
+      </div>
+    </div>
+  );
+}
+
+export default Technologies;

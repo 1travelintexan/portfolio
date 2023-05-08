@@ -5,9 +5,12 @@ import tsImg from "../assets/ts.png";
 import nodeImg from "../assets/nodeJsLogo.png";
 import gitImg from "../assets/git.png";
 import viteImg from "../assets/vite.png";
-import DeleteIcon from "@mui/icons-material/Delete";
-import Icon from "@mui/material/Icon";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import MailIcon from "@mui/icons-material/Mail";
 import personalImg from "../assets/personal-pic.png";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer">
@@ -34,7 +37,42 @@ function Footer() {
       </div>
       <div className="footer-section">
         Contact:
-        <svg data-testid={DeleteIcon}></svg>
+        <div className="footer-icons-contact-container">
+          <Link
+            to="https://www.linkedin.com/in/-joshua-george/"
+            target="_blank"
+            className="footer-icon-contact"
+          >
+            <LinkedInIcon sx={{ fontSize: 80 }} />
+          </Link>
+          <Link
+            to="https://github.com/1travelintexan"
+            target="_blank"
+            className="footer-icon-contact"
+          >
+            <GitHubIcon sx={{ fontSize: 80 }} />
+          </Link>
+          <Link
+            to="https://www.instagram.com/1travelintexan/"
+            target="_blank"
+            className="footer-icon-contact"
+          >
+            <InstagramIcon sx={{ fontSize: 80 }} />
+          </Link>
+          {/* <Link
+            to="javascript:void(0)"
+            onClick={() => (window.location = "horheyinc8@gmail.com")}
+          >
+            Contact Me
+          </Link> */}
+          {/* <Link
+          onClick={(e) => {
+            window.location.href = "horheyinc8@gmail.com";
+          }}
+        >
+          <MailIcon sx={{ fontSize: 80 }} />
+        </Link> */}
+        </div>
       </div>
     </div>
   );

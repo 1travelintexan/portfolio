@@ -10,7 +10,7 @@ body {
   flex-direction: column;
 }
 #nav {
-  background-color: rgb(161, 159, 159) !important;
+  background-color: rgb(128, 127, 127) !important;
   width: 100%;
 }
 .my-nav {
@@ -31,7 +31,7 @@ body {
   margin: 30px;
 }
 .projects-header {
-  color: rgb(87, 87, 87);
+  color: rgb(128, 127, 127);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2rem;
   width: 90%;
@@ -72,7 +72,7 @@ body {
   justify-content: space-around;
 }
 .logos-container article {
-  color: rgb(87, 87, 87);
+  color: rgb(128, 127, 127);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2rem;
 }
@@ -84,7 +84,7 @@ body {
   background-color: rgb(244, 240, 240);
   width: 80%;
   border-radius: 1rem;
-  box-shadow: 0 0 50px gray;
+  box-shadow: 0 0 50px rgb(128, 127, 127);
   margin: 30px;
 }
 .footer {
@@ -92,7 +92,7 @@ body {
   width: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2rem;
-  background-color: rgb(146, 144, 144);
+  background-color: rgb(128, 127, 127);
   color: azure;
   display: flex;
   align-items: center;
@@ -111,6 +111,13 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 25vh;
+}
+.footer-icons-contact-container {
+  display: flex;
+  min-height: 25vh;
+}
+.footer-icon-contact {
+  margin-top: 30px;
 }
 .footer-icon {
   width: 3.5rem;

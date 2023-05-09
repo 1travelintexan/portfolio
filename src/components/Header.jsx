@@ -1,4 +1,4 @@
-import personalPic from "../assets/personal-pic.png";
+import personalPic from "../assets/personal-pic2.png";
 
 function Header() {
   return (
@@ -7,10 +7,10 @@ function Header() {
         <img
           src={personalPic}
           alt="personal picture"
-          className="personal-pic"
+          className="personal-pic-header"
         />
-        <h4 className="link">Joshua George</h4>
-        <h5 className="title">Full-stack Web Developer (MERN)</h5>
+        <h4 className="title-header">Joshua George</h4>
+        <h4 className="title-header">Full-stack Web Developer (MERN)</h4>
       </div>
     </nav>
   );

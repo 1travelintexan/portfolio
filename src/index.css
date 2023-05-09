@@ -3,128 +3,171 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-.page {
+.home-page {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
+/* navbar section */
 #nav {
   background-color: rgb(128, 127, 127) !important;
-  width: 100%;
 }
 .my-nav {
-  padding: 20px;
-  min-height: 40vh;
-  width: 100%;
+  padding: 10px;
+  min-height: 30vh;
   background-image: url("images/Austin.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-#media-card {
-  box-shadow: 0 10px 20px rgb(107, 107, 107);
-  border: 1px solid rgb(169, 168, 168);
-  margin: 30px;
-}
-.projects-header {
-  color: rgb(128, 127, 127);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2rem;
-  width: 90%;
-  padding-left: 30px;
-}
-.projects-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.link {
-  color: white;
-  text-decoration: none;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.5rem;
-  margin: 20px;
-}
-.personal-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  margin-left: 30px;
+  align-items: center;
+  text-align: center;
 }
-.personal-pic {
+.personal-pic-header {
   height: 8rem;
   border-radius: 4rem;
 }
-.title {
+.title-header {
   color: rgb(255, 255, 255);
   letter-spacing: 0.2rem;
   font-size: 1rem;
 }
-.logos-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.logos-container article {
-  color: rgb(128, 127, 127);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2rem;
-}
 .logo {
-  height: 3rem;
-  margin: 20px;
+  height: 1.6rem;
+  margin: 10px;
 }
-.experience-card {
-  background-color: rgb(244, 240, 240);
-  width: 80%;
-  border-radius: 1rem;
-  box-shadow: 0 0 50px rgb(128, 127, 127);
-  margin: 30px;
-}
+
+/* footer section */
 .footer {
   min-height: 25vh;
-  width: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   background-color: rgb(128, 127, 127);
   color: azure;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .footer-section {
-  width: 25%;
+  margin: 20px;
+  font-size: 2rem;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.footer-icon {
+  width: 3.2rem;
+  margin: 5px;
+}
+.footer-personal-img {
+  height: 5rem;
+  border-radius: 2.5rem;
+  margin: 10px;
+}
+.footer-section p {
+  font-size: 1.2rem;
+  margin: 5px;
 }
 .footer-icons {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  min-height: 25vh;
+  min-height: 20vh;
 }
-.footer-icons-contact-container {
-  display: flex;
-  min-height: 25vh;
-}
-.footer-icon-contact {
-  margin-top: 30px;
-}
-.footer-icon {
-  width: 3.5rem;
-  margin: 15px;
-}
-.footer-personal-img {
-  height: 5rem;
-  border-radius: 2.5rem;
-  margin-bottom: 30px;
+
+@media (min-width: 750px) {
+  .my-nav {
+    padding: 20px;
+    min-height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  #media-card {
+    box-shadow: 0 10px 20px rgb(107, 107, 107);
+    border: 1px solid rgb(169, 168, 168);
+    margin: 30px;
+  }
+  .projects-page {
+    border: 1px solid rgba(128, 128, 128, 0.668);
+    margin: 10px;
+    box-shadow: 0 0 20px grey;
+    border-radius: 1rem;
+  }
+  .projects-header {
+    color: rgb(128, 127, 127);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 4rem;
+    padding-left: 30px;
+  }
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    margin: 20px;
+  }
+  .personal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  .logos-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .logos-container article {
+    color: rgb(128, 127, 127);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+  }
+  .logo {
+    height: 3rem;
+    margin: 20px;
+  }
+  .experience-card {
+    background-color: rgb(244, 240, 240);
+    width: 80%;
+    border-radius: 1rem;
+    box-shadow: 0 0 50px rgb(128, 127, 127);
+    margin: 30px;
+  }
+
+  /* footer section  */
+  .footer {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .footer-section {
+    min-height: 25vh;
+    margin: 10px;
+  }
+  .footer-icon {
+    width: 4rem;
+    margin: 15px;
+  }
+  .footer-personal-img {
+    margin-bottom: 30px;
+  }
+  .footer-icons-contact-container {
+    display: flex;
+  }
+  .footer-icon-contact {
+    margin-top: 15px;
+  }
 }

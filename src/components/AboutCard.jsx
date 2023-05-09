@@ -18,18 +18,18 @@ const bull = (
 const card = (
   <div>
     <CardContent>
-      <Typography variant="h5" component="div">
+      <Typography variant="h5" component="div" sx={{ mb: 3 }}>
         Experience:
       </Typography>
       <Typography sx={{ mb: 1 }} color="text.secondary" variant="h6">
-        Ironhack Web Development Bootcamp
+        Ironhack Graduate
       </Typography>
-      <Typography variant="body2">
+      <Typography variant="body2" sx={{ mb: 3 }}>
         -9 week rigorous bootcamp that lays the foundation of programming with
         React, HTML, CSS and Node
       </Typography>
       <Typography sx={{ mb: 1 }} color="text.secondary" variant="h6">
-        Teachers Assistant
+        Web Dev Teachers Assistant
       </Typography>
       <Typography variant="body2">
         -2 years as a teacher's assistant for the same web dev bootcamp.
@@ -37,7 +37,7 @@ const card = (
       <Typography>
         -Check students code, and recommended best practices and organization.
       </Typography>
-      <Typography>
+      <Typography sx={{ mb: 3 }}>
         -Solve homework in front of the students for video every morning.
       </Typography>
       <Typography sx={{ mb: 1 }} color="text.secondary" variant="h6">

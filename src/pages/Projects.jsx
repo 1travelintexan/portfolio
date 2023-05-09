@@ -9,9 +9,9 @@ import React from "react";
 
 function Projects() {
   return (
-    <>
+    <div className="projects-page">
       <div className="projects-header">
-        <article>Projects:</article>
+        <article>Projects</article>
       </div>
       <div className="projects-container">
         <MediaCard
@@ -45,7 +45,7 @@ function Projects() {
           title="Josh-ify"
         />
       </div>
-    </>
+    </div>
   );
 }
 

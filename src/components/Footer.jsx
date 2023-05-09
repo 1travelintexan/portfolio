@@ -43,36 +43,25 @@ function Footer() {
             target="_blank"
             className="footer-icon-contact"
           >
-            <LinkedInIcon sx={{ fontSize: 80 }} />
+            <LinkedInIcon sx={{ fontSize: 60 }} />
           </Link>
           <Link
             to="https://github.com/1travelintexan"
             target="_blank"
             className="footer-icon-contact"
           >
-            <GitHubIcon sx={{ fontSize: 80 }} />
+            <GitHubIcon sx={{ fontSize: 60 }} />
           </Link>
           <Link
             to="https://www.instagram.com/1travelintexan/"
             target="_blank"
             className="footer-icon-contact"
           >
-            <InstagramIcon sx={{ fontSize: 80 }} />
+            <InstagramIcon sx={{ fontSize: 60 }} />
           </Link>
-          {/* <Link
-            to="javascript:void(0)"
-            onClick={() => (window.location = "horheyinc8@gmail.com")}
-          >
-            Contact Me
-          </Link> */}
-          {/* <Link
-          onClick={(e) => {
-            window.location.href = "horheyinc8@gmail.com";
-          }}
-        >
-          <MailIcon sx={{ fontSize: 80 }} />
-        </Link> */}
         </div>
+        <p>Email: Horheyinc@gmail.com</p>
+        <p>Whatsapp: +34 662 572 121</p>
       </div>
     </div>
   );

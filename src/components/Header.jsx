@@ -1,4 +1,4 @@
-import personalPic from "../assets/personal-pic2.png";
+import personalPic from "../assets/personal-pic3.jpg";
 
 function Header() {
   return (

@@ -2,6 +2,10 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .home-page {
   display: flex;
@@ -13,9 +17,16 @@ body {
 #nav {
   background-color: rgb(128, 127, 127) !important;
 }
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .my-nav {
   padding: 10px;
   min-height: 30vh;
+  width: 100vw;
   background-image: url("./assets/Austin.png");
   background-repeat: no-repeat;
   background-position: top;
@@ -26,8 +37,11 @@ body {
   text-align: center;
 }
 .personal-pic-header {
-  height: 8rem;
-  border-radius: 4rem;
+  height: 10rem;
+  width: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 .title-header {
   color: rgb(255, 255, 255);
@@ -37,6 +51,11 @@ body {
 .logo {
   height: 1.6rem;
   margin: 10px;
+}
+#experience-card {
+  width: 90%;
+  border-radius: 1rem;
+  box-shadow: 0 0 50px rgb(128, 127, 127);
 }
 
 /* footer section */
@@ -90,7 +109,7 @@ body {
 }
 
 .projects-header {
-  color: rgb(128, 127, 127);
+  color: rgb(127, 127, 128);
   font-family: "Times New Roman", Times, serif;
   font-size: 3rem;
   padding-left: 10px;
@@ -100,6 +119,23 @@ body {
   color: rgb(128, 127, 127);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2rem;
+}
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-card {
+  background-color: rgba(116, 116, 116, 0.529);
+  width: 90%;
+  color: aliceblue;
+  border-radius: 10px;
+  margin: 20px;
+}
+.contact-link {
+  color: rgb(57, 57, 255);
+  text-decoration: none;
 }
 .non-found {
   height: 100vh;
@@ -116,7 +152,7 @@ body {
     min-height: 40vh;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .projects-page {
@@ -128,12 +164,7 @@ body {
   .projects-header {
     font-size: 4rem;
     padding-left: 30px;
-  }
-  .projects-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    width: 100%;
   }
   .link {
     color: white;
@@ -157,13 +188,6 @@ body {
   .logo {
     height: 3rem;
     margin: 20px;
-  }
-  .experience-card {
-    background-color: rgb(244, 240, 240);
-    width: 80%;
-    border-radius: 1rem;
-    box-shadow: 0 0 50px rgb(128, 127, 127);
-    margin: 30px;
   }
 
   /* footer section  */

@@ -11,10 +11,10 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<OutletComponent />}>
-          <Route path="" element={<Home />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="contact" exact element={<Contact />} />
-          <Route path="about" element={<About />} />
+          <Route path="" element={<Projects />} />
+          <Route path="/experience" element={<Home />} />
+          <Route path="/contact" exact element={<Contact />} />
+          <Route path="/about" element={<About />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>

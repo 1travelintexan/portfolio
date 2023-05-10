@@ -18,7 +18,7 @@ const bull = (
 const card = (
   <div>
     <CardContent>
-      <Typography variant="h5" component="div" sx={{ mb: 3 }}>
+      <Typography variant="h4" component="div" sx={{ mb: 3 }}>
         Experience:
       </Typography>
       <Typography sx={{ mb: 1 }} color="text.secondary" variant="h6">

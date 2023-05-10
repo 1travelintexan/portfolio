@@ -1,4 +1,4 @@
-import OutlinedCard from "../components/AboutCard";
+import OutlinedCard from "../components/OutlinedCard";
 
 function Home() {
   return (

@@ -63,7 +63,7 @@ const card = (
 
 export default function OutlinedCard() {
   return (
-    <Box sx={{ minWidth: 275 }} className="experience-card">
+    <Box sx={{ minWidth: 275 }} id="experience-card">
       <Card variant="outlined">{card}</Card>
     </Box>
   );

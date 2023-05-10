@@ -5,6 +5,7 @@ import tsImg from "../assets/ts.png";
 import nodeImg from "../assets/nodeJsLogo.png";
 import gitImg from "../assets/git.png";
 import viteImg from "../assets/vite.png";
+import mongoImg from "../assets/mongoDB.png";
 
 function Technologies() {
   return (
@@ -14,6 +15,7 @@ function Technologies() {
         {" "}
         <img src={reactImg} alt="react logo" className="logo" />
         <img src={tsImg} alt="ts logo" className="logo" />
+        <img src={mongoImg} alt="mongoDB logo" className="logo" />
         <img src={htmlImg} alt="html logo" className="logo" />
         <img src={cssImg} alt="css logo" className="logo" />
         <img src={nodeImg} alt="node logo" className="logo" />

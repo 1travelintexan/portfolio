@@ -1,7 +1,10 @@
-import React from "react";
-
+import OutlinedCard from "../components/AboutCard";
 function Contact() {
-  return <div>Contact</div>;
+  return (
+    <div>
+      <OutlinedCard />
+    </div>
+  );
 }
 
 export default Contact;

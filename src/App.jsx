@@ -1,22 +1,23 @@
-import Technologies from "./components/Technologies";
-import Footer from "./components/Footer";
-import CollapsibleExample from "./components/Navbar";
 import Projects from "./pages/Projects";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Header from "./components/Header";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+import NotFound from "./pages/NotFound";
+import OutletComponent from "./components/OutletComponent";
 
 function App() {
   return (
     <>
-      <Header />
-      <CollapsibleExample />
-      <Technologies />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/" element={<OutletComponent />}>
+          <Route path="" element={<Home />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="contact" exact element={<Contact />} />
+          <Route path="about" element={<About />} />
+        </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer />
     </>
   );
 }

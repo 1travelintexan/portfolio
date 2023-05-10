@@ -80,7 +80,36 @@ body {
   justify-content: center;
   min-height: 20vh;
 }
+.footer-icon-contact {
+  margin: 15px;
+}
+#media-card {
+  box-shadow: 0 10px 20px rgb(107, 107, 107);
+  border: 1px solid rgb(169, 168, 168);
+  margin: 30px;
+}
 
+.projects-header {
+  color: rgb(128, 127, 127);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+  padding-left: 10px;
+}
+
+.logos-container article {
+  color: rgb(128, 127, 127);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+}
+.non-found {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(104, 104, 104);
+  object-fit: cover;
+  background-image: url("./assets/404.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 @media (min-width: 750px) {
   .my-nav {
     padding: 20px;
@@ -89,11 +118,7 @@ body {
     justify-content: space-between;
     align-items: flex-start;
   }
-  #media-card {
-    box-shadow: 0 10px 20px rgb(107, 107, 107);
-    border: 1px solid rgb(169, 168, 168);
-    margin: 30px;
-  }
+
   .projects-page {
     border: 1px solid rgba(128, 128, 128, 0.668);
     margin: 10px;
@@ -101,8 +126,6 @@ body {
     border-radius: 1rem;
   }
   .projects-header {
-    color: rgb(128, 127, 127);
-    font-family: "Times New Roman", Times, serif;
     font-size: 4rem;
     padding-left: 30px;
   }
@@ -130,11 +153,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  .logos-container article {
-    color: rgb(128, 127, 127);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
   }
   .logo {
     height: 3rem;
@@ -166,8 +184,5 @@ body {
   }
   .footer-icons-contact-container {
     display: flex;
-  }
-  .footer-icon-contact {
-    margin-top: 15px;
   }
 }

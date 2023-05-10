@@ -24,18 +24,6 @@ function Footer() {
         <h6>Full-Stack MERN Developer</h6>
       </div>
       <div className="footer-section">
-        <div>Technologies:</div>
-        <section className="footer-icons">
-          <img src={reactImg} alt="footer react icon" className="footer-icon" />
-          <img src={htmlImg} alt="footer react icon" className="footer-icon" />
-          <img src={cssImg} alt="footer react icon" className="footer-icon" />
-          <img src={tsImg} alt="footer react icon" className="footer-icon" />
-          <img src={nodeImg} alt="footer react icon" className="footer-icon" />
-          <img src={gitImg} alt="footer react icon" className="footer-icon" />
-          <img src={viteImg} alt="footer react icon" className="footer-icon" />
-        </section>
-      </div>
-      <div className="footer-section">
         Contact:
         <div className="footer-icons-contact-container">
           <Link
@@ -62,6 +50,18 @@ function Footer() {
         </div>
         <p>Email: Horheyinc@gmail.com</p>
         <p>Whatsapp: +34 662 572 121</p>
+      </div>
+      <div className="footer-section">
+        <div>Technologies:</div>
+        <section className="footer-icons">
+          <img src={reactImg} alt="footer react icon" className="footer-icon" />
+          <img src={htmlImg} alt="footer react icon" className="footer-icon" />
+          <img src={cssImg} alt="footer react icon" className="footer-icon" />
+          <img src={tsImg} alt="footer react icon" className="footer-icon" />
+          <img src={nodeImg} alt="footer react icon" className="footer-icon" />
+          <img src={gitImg} alt="footer react icon" className="footer-icon" />
+          <img src={viteImg} alt="footer react icon" className="footer-icon" />
+        </section>
       </div>
     </div>
   );

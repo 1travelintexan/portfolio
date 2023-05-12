@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -6,7 +7,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-export default function MediaCard({ image, info, title }) {
+export default function MediaCard({ image, info, title, url }) {
   return (
     <Card
       sx={{ width: 355, minHeight: 350, objectFit: "cover" }}
@@ -26,8 +27,16 @@ export default function MediaCard({ image, info, title }) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Link</Button>
-        <Button size="small">Code</Button>
+        <Button size="small">
+          <Link to={url} target="_blank" className="project-link">
+            Site
+          </Link>
+        </Button>
+        <Button size="small">
+          <Link to={url} target="_blank" className="project-link">
+            Code
+          </Link>
+        </Button>
       </CardActions>
     </Card>
   );

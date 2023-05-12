@@ -115,7 +115,17 @@ body {
   font-size: 3rem;
   padding-left: 10px;
 }
-
+.project-link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  letter-spacing: 0;
+  transform: translateY();
+  transition: 0.3s;
+}
+.project-link:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 5px rgb(52, 1, 255);
+}
 .logos-container article {
   color: rgb(128, 127, 127);
   font-family: Verdana, Geneva, Tahoma, sans-serif;

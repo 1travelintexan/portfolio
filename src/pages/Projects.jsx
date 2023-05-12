@@ -4,6 +4,9 @@ import rippenBrahImg from "../assets/rippen-brah.png";
 import tronImg from "../assets/tron.png";
 import moveItImg from "../assets/moveIt.png";
 import spotifyImg from "../assets/spotify.png";
+import massageImg from "../assets/massage.png";
+import joshASketchImg from "../assets/joshASketch.png";
+import rockImg from "../assets/rock.png";
 import MediaCard from "../components/MediaCard";
 import React from "react";
 
@@ -18,31 +21,56 @@ function Projects() {
           image={kookClubImg}
           info="Full-Stack(MERN), React, Express, Mongoose, Bcrypt, MongoDB"
           title="Kook-Club"
+          url="https://kook-club.netlify.app/"
         />
         <MediaCard
           image={lifesABeachImg}
-          info="Server side rendered project, using Handlebars js as a templating engine. Designed to help users plan and budget for their dream vacation. "
+          info="SSR,Templating Engine (Handlebars) Designed to help users plan and budget for their dream vacation. "
           title="Life's a Beach"
+          url="https://lifesabeach.adaptable.app/"
         />
         <MediaCard
           image={rippenBrahImg}
           info="Fun 2D 80's theme game, created with vanilla Javascript, HTML, CSS and Canvas."
           title="Rippin Brah!!!"
+          url="https://1travelintexan.github.io/Rippin-Brah-/"
+        />
+
+        <MediaCard
+          image={joshASketchImg}
+          info="App that simulates a fun childhood game, Etch-a-Sketch"
+          title="Josh-A-Sketch"
+          url="https://1travelintexan.github.io/etch-a-sketch/"
         />
         <MediaCard
           image={tronImg}
           info="Tic Tac Toe game with the logic written from scratch adn made in Vite with Tron theme"
           title="Tic-Tac-Tron"
+          url="https://tic-tac-tron.netlify.app/"
         />
         <MediaCard
           image={moveItImg}
           info="Chess game written with no help from external libraries, with a time limit of 5 seconds a move"
           title="Move it or Lose it"
+          url="https://move-it-or-lose-it.netlify.app/"
         />
         <MediaCard
           image={spotifyImg}
           info="App using the spotify api to display data on any artist that Spotify offers"
           title="Josh-ify"
+          url="https://josh-ify.adaptable.app/"
+        />
+        <MediaCard
+          image={rockImg}
+          info="Matrix themed Rock...Paper...Scissors game"
+          title="Rock Paper Scissors"
+          url="https://1travelintexan.github.io/Rock-Paper-Scissors/"
+        />
+        <MediaCard
+          image={massageImg}
+          info="Freelance SPA for a local massuese"
+          title="Massage Benedict"
+          url="https://massage-benedict.netlify.app/"
         />
       </div>
     </div>

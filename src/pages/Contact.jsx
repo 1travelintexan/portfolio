@@ -10,7 +10,6 @@ const card = (
     <div className="projects-header">
       <article>Contact:</article>
     </div>
-
     <CardContent className="contact-card">
       <Typography variant="h4" component="div" color="white" sx={{ mb: 0 }}>
         Email:

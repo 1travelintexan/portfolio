@@ -6,6 +6,7 @@ import nodeImg from "../assets/nodeJsLogo.png";
 import gitImg from "../assets/git.png";
 import viteImg from "../assets/vite.png";
 import mongoImg from "../assets/mongoDB.png";
+import nextImg from "../assets/nextjs.png";
 
 function Technologies() {
   return (
@@ -21,6 +22,7 @@ function Technologies() {
         <img src={nodeImg} alt="node logo" className="logo" />
         <img src={gitImg} alt="git logo" className="logo" />
         <img src={viteImg} alt="vite logo" className="logo" />
+        <img src={nextImg} alt="next logo" className="logo" />
       </div>
     </div>
   );

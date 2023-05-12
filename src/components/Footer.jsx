@@ -7,8 +7,8 @@ function Footer() {
       <div className="footer-section">
         <h4>Joshua George</h4>
         <h6>Full-Stack MERN Developer</h6>
-        <h6>Ironhack Graduate</h6>
         <h6>Web Dev Lead Teacher</h6>
+        <h3>To teach is to learn twice over...</h3>
       </div>
       <div className="footer-section">
         Contact:

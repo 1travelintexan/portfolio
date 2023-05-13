@@ -108,6 +108,13 @@ body {
   border: 1px solid rgb(169, 168, 168);
   margin: 30px;
 }
+#media-card-image {
+  height: 14rem;
+  object-fit: contain;
+  border: 1px solid rgba(128, 128, 128, 0.663);
+  box-shadow: 0 10px 20px rgb(107, 107, 107);
+  margin: 5px;
+}
 
 .projects-header {
   color: rgb(0, 0, 0);
@@ -119,12 +126,14 @@ body {
   font-size: 1.5rem;
   text-decoration: none;
   letter-spacing: 0;
+  padding: 5px;
+  border: 2px solid rgba(52, 1, 255, 0);
   transform: translateY();
   transition: 0.3s;
 }
 .project-link:hover {
-  transform: scale(1.1);
-  text-shadow: 0 0 5px rgb(52, 1, 255);
+  box-shadow: 0 0 50px rgb(86, 85, 85);
+  border: 2px solid rgb(52, 1, 255);
 }
 .logos-container article {
   color: rgb(128, 127, 127);

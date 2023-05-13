@@ -7,7 +7,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-export default function MediaCard({ image, info, title, url }) {
+export default function MediaCard({ image, info, title, url, github }) {
   return (
     <Card
       sx={{ width: 355, minHeight: 350, objectFit: "cover" }}
@@ -33,7 +33,7 @@ export default function MediaCard({ image, info, title, url }) {
           </Link>
         </Button>
         <Button size="small">
-          <Link to={url} target="_blank" className="project-link">
+          <Link to={github} target="_blank" className="project-link">
             Code
           </Link>
         </Button>

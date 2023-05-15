@@ -104,16 +104,14 @@ body {
   margin: 15px;
 }
 #media-card {
-  box-shadow: 0 10px 20px rgb(107, 107, 107);
-  border: 1px solid rgb(169, 168, 168);
-  margin: 30px;
+  box-shadow: 0 0px 40px rgb(107, 107, 107);
+  margin: 10px;
 }
 #media-card-image {
   height: 14rem;
   object-fit: contain;
-  border: 1px solid rgba(128, 128, 128, 0.663);
-  box-shadow: 0 10px 20px rgb(107, 107, 107);
-  margin: 5px;
+  box-shadow: 0 5px 10px gray;
+  border-radius: 0.5rem;
 }
 
 .projects-header {

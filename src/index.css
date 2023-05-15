@@ -26,7 +26,7 @@ body {
 .my-nav {
   padding: 10px;
   min-height: 30vh;
-  width: 100vw;
+  width: 100%;
   background-image: url("./assets/Austin.png");
   background-repeat: no-repeat;
   background-position: top;

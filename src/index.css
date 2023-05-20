@@ -26,7 +26,6 @@ body {
 .my-nav {
   padding: 10px;
   min-height: 30vh;
-  width: 100%;
   background-image: url("./assets/Austin.png");
   background-repeat: no-repeat;
   background-position: top;
@@ -48,15 +47,12 @@ body {
   letter-spacing: 0.2rem;
   font-size: 1rem;
 }
-.logo {
-  height: 3.2rem;
-  margin: 10px;
-}
+
 #experience-card {
   width: 90%;
   border-radius: 1rem;
   box-shadow: 0 0 50px rgb(128, 127, 127);
-  margin: 20px;
+  margin: 10px;
 }
 
 /* footer section */
@@ -72,7 +68,7 @@ body {
   justify-content: center;
 }
 .footer-section {
-  margin: 20px;
+  margin: 3px;
   font-size: 2rem;
   width: 90%;
   display: flex;
@@ -83,11 +79,6 @@ body {
 .footer-icon {
   width: 3.2rem;
   margin: 5px;
-}
-.footer-personal-img {
-  height: 5rem;
-  border-radius: 2.5rem;
-  margin: 10px;
 }
 .footer-section p {
   font-size: 1.2rem;
@@ -101,7 +92,18 @@ body {
   min-height: 20vh;
 }
 .footer-icon-contact {
-  margin: 15px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.footer-icon-contact p {
+  font-size: 0.8rem;
+}
+.footer-icons-contact-container {
+  display: flex;
 }
 #media-card {
   box-shadow: 0 0px 40px rgb(107, 107, 107);
@@ -130,35 +132,52 @@ body {
   transition: 0.3s;
 }
 .project-link:hover {
-  box-shadow: 0 0 50px rgb(86, 85, 85);
-  border: 2px solid rgb(52, 1, 255);
+  text-shadow: 0 0 20px rgb(3, 3, 3);
+  font-size: 1.6rem;
+}
+.motto {
+  font-size: 1.8rem;
+  color: rgb(195, 195, 56);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 .logos-container article {
   color: rgb(128, 127, 127);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2rem;
 }
+.logos-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo {
+  height: 3.8rem;
+  margin: 10px;
+}
 .contact-page {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100vw;
 }
 .contact-card {
-  background-color: rgba(116, 116, 116, 0.529);
-  width: 90%;
+  background-color: rgba(128, 127, 127, 0.736);
+  box-shadow: 0 0 30px gray;
   color: aliceblue;
   border-radius: 10px;
-  margin: 20px;
+  width: 90vw;
+  margin: 20px 10px;
+  padding: 10px;
 }
 .contact-link {
-  color: rgb(57, 57, 255);
+  color: rgb(111, 111, 235);
   text-decoration: none;
 }
 .non-found {
   height: 100vh;
   width: 100vw;
-  background-color: rgb(104, 104, 104);
+  background-color: rgb(128, 127, 127);
   object-fit: cover;
   background-image: url("./assets/404.png");
   background-repeat: no-repeat;
@@ -220,11 +239,5 @@ body {
   .footer-icon {
     width: 4rem;
     margin: 15px;
-  }
-  .footer-personal-img {
-    margin-bottom: 30px;
-  }
-  .footer-icons-contact-container {
-    display: flex;
   }
 }

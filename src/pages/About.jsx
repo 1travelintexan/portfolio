@@ -13,27 +13,26 @@ export default function Contact() {
       </div>
       <CardContent className="contact-card">
         <Typography variant="h4" component="div" color="white" sx={{ mb: 0 }}>
-          Intro:
+          Hi, I'm Joshua:
         </Typography>
         <Typography sx={{ mb: 2 }} color="white" variant="h6">
-          -I am a proud graduate of Ironhack Full-Stack Web Development
+          -Proud graduate of Ironhack Full-Stack Web Development
           Bootcamp.(remote)
         </Typography>
         <Typography sx={{ mb: 2 }} color="white" variant="h6">
-          -I am a freelancer with a passion for learning and helping others grow
-          as developers.
+          -Freelancer / Web Dev Lead Teacher with a passion for learning new
+          tech stacks.
         </Typography>
         <Typography sx={{ mb: 2 }} color="white" variant="h6">
-          -I have a specialty in HTML, CSS, Javascript and React, with
-          experience in Next-JS and Vite.
+          -Specializing in HTML, CSS, Javascript and React, with experience in
+          Next-JS and Vite.
         </Typography>
         <Typography sx={{ mb: 2 }} color="white" variant="h6">
-          -In my 3 years of educating, I have helped conceptualize, develope,
-          debug and deploy over 200 student projects.
+          -2 years of educating experience, where I have facilited,
+          conceptualized, and debugged over 200 team projects.
         </Typography>
         <Typography sx={{ mb: 2 }} color="white" variant="h6">
-          -As a developer, I pride myself on being a eternal student. Always
-          growing, learning and adaping to new technologies and libraries.
+          -A forever student of coding, languages & cultures of the world.
         </Typography>
       </CardContent>
     </div>

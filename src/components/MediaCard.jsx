@@ -19,21 +19,27 @@ export default function MediaCard({ image, info, title, url, github }) {
           Noteable Features:
         </Typography>
         {/* <Typography gutterBottom variant="h5" component="div"></Typography> */}
-        <Typography variant="captionText" color="text.secondary">
-          {info}
-        </Typography>
+        {info.map((feature) => {
+          return (
+            <div>
+              <Typography
+                variant="captionText"
+                color="text.secondary"
+                sx={{ margin: 0 }}
+              >
+                -{feature}
+              </Typography>
+            </div>
+          );
+        })}
       </CardContent>
       <CardActions>
-        <Button size="small">
-          <Link to={url} target="_blank" className="project-link">
-            Site
-          </Link>
-        </Button>
-        <Button size="small">
-          <Link to={github} target="_blank" className="project-link">
-            Code
-          </Link>
-        </Button>
+        <Link to={url} target="_blank" className="project-link">
+          Site
+        </Link>
+        <Link to={github} target="_blank" className="project-link">
+          Code
+        </Link>
       </CardActions>
     </Card>
   );

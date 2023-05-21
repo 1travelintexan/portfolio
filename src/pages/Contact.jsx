@@ -2,11 +2,19 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import { useState, useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
+  const [showPopper, setShowPopper] = useState(false);
   const form = useRef();
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowPopper(false);
+    }, 2000);
+  }, [showPopper]);
+
   const handleEmail = async (e) => {
     e.preventDefault();
     try {
@@ -17,9 +25,14 @@ export default function Contact() {
         "user_Y6YdfC0dSMM1EiWEZkHLC"
       );
       console.log("Email successful", emailResponse);
+      form.current = "";
     } catch (err) {
       console.log("error with email");
     }
+  };
+  const handleReset = () => {
+    form.current.reset();
+    setShowPopper(true);
   };
   return (
     <div className="contact-page">
@@ -54,8 +67,11 @@ export default function Contact() {
             <input type="email" name="email" />
             <label>Message:</label>
             <textarea name="message" style={{ width: "90%" }} rows={5} />
-            <button type="submit">Send</button>
+            <button type="submit" onClick={handleReset}>
+              Send
+            </button>
           </form>
+          {showPopper ? <div>Thank you! Talk soon 🤠 </div> : null}
         </div>
       </CardContent>
       <div>

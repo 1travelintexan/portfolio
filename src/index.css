@@ -164,9 +164,8 @@ body {
   width: 100vw;
 }
 .contact-card {
-  background-color: rgba(128, 127, 127, 0.736);
+  background-color: rgba(102, 102, 102, 0.807);
   color: rgb(214, 217, 220);
-  border-radius: 10px;
   width: 90vw;
   margin: 20px 10px;
   padding: 30px;
@@ -174,6 +173,33 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.contact-form-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  text-align: center;
+}
+.contact-form {
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(80, 80, 80);
+  width: 90%;
+}
+.contact-form button {
+  margin: 10px;
+  padding: 5px;
+  width: 50%;
+  font-size: 1.3rem;
+  background-color: rgba(54, 175, 54, 0.597);
+  color: aliceblue;
 }
 #map {
   height: 300px;
@@ -229,7 +255,7 @@ body {
   .logos-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
   }
   .logo {
     height: 3rem;
@@ -243,6 +269,20 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+  .contact-form-container {
+    width: 60%;
+  }
+  .contact-form {
+    margin: 20px;
+    padding: 20px;
+    width: 60%;
+  }
+  .contact-form input {
+    width: 60%;
+  }
+  .contact-form button {
+    width: 20%;
   }
   #map {
     height: 600px !important;

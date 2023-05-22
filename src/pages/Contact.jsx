@@ -4,11 +4,19 @@ import { Link } from "react-router-dom";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
+import L from "leaflet";
+import marker from "../assets/heart.png";
 
 export default function Contact() {
   const [showPopper, setShowPopper] = useState(false);
   const form = useRef();
-
+  const myIcon = new L.Icon({
+    iconUrl: marker,
+    iconRetinaUrl: marker,
+    iconAnchor: [20, 20],
+    popupAnchor: [-10, -10],
+    iconSize: [20, 20],
+  });
   useEffect(() => {
     setTimeout(() => {
       setShowPopper(false);
@@ -42,7 +50,7 @@ export default function Contact() {
       <CardContent className="contact-card">
         <MapContainer
           center={[30.311876, -95.456055]}
-          zoom={4}
+          zoom={6}
           scrollWheelZoom={true}
           id="map"
         >
@@ -50,7 +58,8 @@ export default function Contact() {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          <Marker position={[30.311876, -95.456055]}>
+
+          <Marker position={[30.311876, -95.456055]} icon={myIcon}>
             <Popup>Home Sweet Home</Popup>
           </Marker>
         </MapContainer>
@@ -58,7 +67,7 @@ export default function Contact() {
           <h3>Let's Collaborate</h3>
           <h5>
             I am open to any new ideas or possible future projects, I look
-            forward to hearing from you !
+            forward to hearing from you!
           </h5>
           <form ref={form} onSubmit={handleEmail} className="contact-form">
             <label>Name:</label>

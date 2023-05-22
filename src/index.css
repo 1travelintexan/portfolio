@@ -12,6 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100vw;
 }
 /* navbar section */
 #nav {
@@ -52,8 +53,8 @@ body {
 #experience-card {
   width: 90%;
   border-radius: 1rem;
-  box-shadow: 0 0 50px rgb(128, 127, 127);
-  margin: 10px;
+  box-shadow: 0 10px 50px rgb(128, 127, 127);
+  margin: 30px;
 }
 
 /* footer section */
@@ -165,6 +166,29 @@ body {
   width: 100vw;
 }
 .contact-card {
+  background-color: rgba(102, 102, 102, 0.807);
+  color: rgb(214, 217, 220);
+  width: 90vw;
+  margin: 20px 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.row-about {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-pic {
+  height: 15rem;
+  margin-bottom: 20px;
+}
+.about-card {
   background-color: rgba(102, 102, 102, 0.807);
   color: rgb(214, 217, 220);
   width: 90vw;
@@ -309,5 +333,10 @@ body {
   .motto {
     font-size: 1.8rem;
     width: 60%;
+  }
+  .row-about {
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
   }
 }

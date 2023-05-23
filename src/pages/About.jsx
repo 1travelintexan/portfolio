@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="contact-page">
       <div className="projects-header">
-        <article>About:</article>
+        <article className="dark">About:</article>
       </div>
       <CardContent className="about-card">
         <Typography variant="h2" component="div" color="white" sx={{ mb: 5 }}>

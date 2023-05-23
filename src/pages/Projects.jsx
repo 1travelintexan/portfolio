@@ -7,6 +7,7 @@ import spotifyImg from "../assets/spotify.png";
 import massageImg from "../assets/massage.png";
 import joshASketchImg from "../assets/joshASketch.png";
 import rockImg from "../assets/rock.png";
+import starWarsImg from "../assets/starWars.png";
 import MediaCard from "../components/MediaCard";
 
 function Projects() {
@@ -55,7 +56,6 @@ function Projects() {
           url="https://1travelintexan.github.io/Rippin-Brah-/"
           github="https://github.com/1travelintexan/Rippin-Brah-"
         />
-
         <MediaCard
           image={joshASketchImg}
           info={[
@@ -68,6 +68,20 @@ function Projects() {
           title="Josh-A-Sketch"
           url="https://1travelintexan.github.io/etch-a-sketch/"
           github="https://github.com/1travelintexan/etch-a-sketch"
+        />
+
+        <MediaCard
+          image={starWarsImg}
+          info={[
+            "Next JS",
+            "Deployed with Vercel",
+            "Rest API",
+            "Custom Routes",
+            "Star Wars Theme",
+          ]}
+          title="Star Wars API"
+          url="https://star-wars-app-beta.vercel.app/"
+          github="https://github.com/1travelintexan/Nextjs-starWarsApp"
         />
         <MediaCard
           image={tronImg}

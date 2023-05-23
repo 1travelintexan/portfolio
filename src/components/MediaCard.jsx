@@ -1,11 +1,11 @@
-import * as React from "react";
 import { Link } from "react-router-dom";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 
 export default function MediaCard({ image, info, title, url, github }) {
   return (
@@ -18,7 +18,6 @@ export default function MediaCard({ image, info, title, url, github }) {
         <Typography gutterBottom variant="h6" component="div">
           Noteable Features:
         </Typography>
-        {/* <Typography gutterBottom variant="h5" component="div"></Typography> */}
         {info.map((feature) => {
           return (
             <div>
@@ -35,10 +34,10 @@ export default function MediaCard({ image, info, title, url, github }) {
       </CardContent>
       <CardActions>
         <Link to={url} target="_blank" className="project-link">
-          Site
+          <ExitToAppIcon sx={{ fontSize: 40 }} color={"primary"} />
         </Link>
         <Link to={github} target="_blank" className="project-link">
-          Code
+          <GitHubIcon sx={{ fontSize: 40 }} color={"primary"} />
         </Link>
       </CardActions>
     </Card>

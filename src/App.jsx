@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import OutletComponent from "./components/OutletComponent";
+import Testimonials from "./pages/Testimonials";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" exact element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/testimonials" element={<Testimonials />} />
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>

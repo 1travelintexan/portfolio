@@ -8,7 +8,6 @@ import massageImg from "../assets/massage.png";
 import joshASketchImg from "../assets/joshASketch.png";
 import rockImg from "../assets/rock.png";
 import MediaCard from "../components/MediaCard";
-import React from "react";
 
 function Projects() {
   return (
@@ -75,9 +74,9 @@ function Projects() {
           info={[
             "Vanilla Javascript",
             "HTML",
-            "Complex JS Logic for win/lose",
+            "JS Logic for win/lose",
             "Sound Effects",
-            "Made with Vite",
+            "Vite",
           ]}
           title="Tic-Tac-Tron"
           url="https://tic-tac-tron.netlify.app/"
@@ -86,7 +85,7 @@ function Projects() {
         <MediaCard
           image={moveItImg}
           info={[
-            "Complex movement logic written from scratch",
+            "Complex movement",
             "Vanilla Javascript",
             "HTML",
             "React Hooks",
@@ -98,13 +97,7 @@ function Projects() {
         />
         <MediaCard
           image={spotifyImg}
-          info={[
-            "SSR",
-            "Express",
-            "Auth",
-            "Handlebars",
-            "Using Spotify Api for data",
-          ]}
+          info={["SSR", "Express", "Auth", "Handlebars", "Rest API (Spotify) "]}
           title="Josh-ify"
           url="https://josh-ify.adaptable.app/"
           github="https://github.com/1travelintexan/lab-express-spotify"
@@ -112,7 +105,7 @@ function Projects() {
         <MediaCard
           image={rockImg}
           info={[
-            "Math.random method for computer moves",
+            "Math.random()",
             "Vanilla JS",
             "HTML",
             "Restart Functionality",

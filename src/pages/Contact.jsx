@@ -85,18 +85,6 @@ export default function Contact() {
       </CardContent>
       <div>
         <Typography variant="h4" component="div" color="gray" sx={{ mb: 0 }}>
-          Email:
-        </Typography>
-        <Typography sx={{ mb: 1 }} color="text.secondary" variant="h6">
-          <Link
-            to="https://github.com/1travelintexan"
-            target="_blank"
-            className="contact-link"
-          >
-            Horheyinc8@gmail.com
-          </Link>
-        </Typography>
-        <Typography variant="h4" component="div" color="gray" sx={{ mb: 0 }}>
           Whatsapp:
         </Typography>
         <Typography sx={{ mb: 1 }} variant="h6" className="contact-link">

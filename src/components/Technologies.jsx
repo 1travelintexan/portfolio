@@ -11,7 +11,6 @@ import nextImg from "../assets/nextjs.png";
 function Technologies() {
   return (
     <div className="logos-container">
-      <article>Skills / Technologies:</article>
       <div className="logos-div">
         {" "}
         <img src={reactImg} alt="react logo" className="logo" />

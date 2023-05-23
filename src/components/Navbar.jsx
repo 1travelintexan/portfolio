@@ -13,7 +13,7 @@ function CollapsibleExample() {
           <Nav className="me-auto"></Nav>
           <Nav>
             <Nav.Link href="/" className="nav-link">
-              Home
+              Projects
             </Nav.Link>
             <Nav.Link eventKey={2} href="/experience">
               Experience
@@ -23,6 +23,9 @@ function CollapsibleExample() {
             </Nav.Link>
             <Nav.Link eventKey={2} href="/about">
               About
+            </Nav.Link>
+            <Nav.Link eventKey={2} href="/testimonials">
+              Testimonials
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -20,7 +20,7 @@ export default function MediaCard({ image, info, title, url, github }) {
         </Typography>
         {info.map((feature) => {
           return (
-            <div>
+            <div key={feature}>
               <Typography
                 variant="captionText"
                 color="text.secondary"

@@ -60,6 +60,19 @@ body {
   margin: 30px;
 }
 
+/* Testimony page */
+.testimonies-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimony-card {
+  width: 40%;
+  background-color: rgb(232, 228, 228) !important;
+  margin: 20px;
+  box-shadow: 0 0 20px gray !important;
+}
 /* footer section */
 .footer {
   min-height: 25vh;

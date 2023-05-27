@@ -23,7 +23,7 @@ export default function MediaCard({ image, info, title, url, github }) {
             <div key={feature}>
               <Typography
                 variant="captionText"
-                color="text.secondary"
+                color="white"
                 sx={{ margin: 0 }}
               >
                 -{feature}

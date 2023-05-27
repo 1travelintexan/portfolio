@@ -7,9 +7,10 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-/* .dark {
+.dark {
   color: aliceblue;
-} */
+  background-color: rgb(16, 24, 37);
+}
 .home-page {
   display: flex;
   align-items: center;
@@ -19,7 +20,7 @@ body {
 }
 /* navbar section */
 #nav {
-  background-color: rgb(128, 127, 127) !important;
+  background-color: rgb(56, 56, 57) !important;
 }
 .projects-container {
   display: flex;
@@ -78,7 +79,7 @@ body {
   min-height: 25vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem;
-  background-color: rgb(128, 127, 127);
+  background-color: rgb(66, 67, 67);
   color: azure;
   display: flex;
   flex-direction: column;
@@ -127,14 +128,14 @@ body {
   display: flex;
 }
 #media-card {
-  box-shadow: 0 0px 40px rgb(107, 107, 107);
   margin: 10px;
+  box-shadow: 0 10px 10px rgb(22, 21, 21);
+  background-color: rgb(66, 67, 67);
+  color: aliceblue;
 }
 #media-card-image {
   height: 14rem;
   object-fit: contain;
-  box-shadow: 0 5px 10px gray;
-  border-radius: 0.5rem;
 }
 .projects-header {
   color: rgb(0, 0, 0);
@@ -166,7 +167,7 @@ body {
   flex-wrap: wrap;
 }
 .logo {
-  height: 3.8rem;
+  height: 3.2rem;
   margin: 10px;
 }
 .contact-page {
@@ -271,15 +272,16 @@ body {
     text-shadow: 0 0 20px rgb(70, 70, 70);
   }
   .projects-page {
-    border: 1px solid rgba(128, 128, 128, 0.668);
+    background-color: rgba(29, 33, 47, 0.463);
+    color: aliceblue;
     margin: 10px;
-    box-shadow: 0 0 20px grey;
     border-radius: 1rem;
   }
   .projects-header {
     font-size: 4rem;
     padding-left: 30px;
     width: 100%;
+    color: aliceblue;
   }
   .link {
     color: white;

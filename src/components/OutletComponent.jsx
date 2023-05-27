@@ -5,7 +5,7 @@ import CollapsibleExample from "./Navbar";
 import Header from "./Header";
 function OutletComponent() {
   return (
-    <div>
+    <div className="dark">
       <Header />
       <CollapsibleExample />
       <Technologies />

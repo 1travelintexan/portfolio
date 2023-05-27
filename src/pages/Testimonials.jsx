@@ -25,6 +25,19 @@ function Testimonials() {
       comment: `Josh is the type of person who shows up early and stays late, he puts all of his effort into whatever project he is working on. He is kind, funny and honest and it's with these characteristics in mind that I would happily recommend him for any team that is considering him. They would be lucky to have him because I would like to see him stay in mine.`,
       date: "May 26, 2023",
     },
+    {
+      name: "Daniel ",
+      occupation: "Software Engineer",
+      relation: "Co-Worker",
+      comment: `I had the pleasure of working with Joshua during our time together in Ironhack’s web development bootcamp, and I can confidently say that he is one of the most talented and dedicated individuals I have had the chance to work with.
+
+      Joshua is smart and a quick learner, always eager to take on new challenges and push himself to new heights. He has a natural talent for problem-solving and is able to think outside the box to come up with creative solutions to complex issues. His technical skills are incredible.
+      
+      In addition to his technical prowess, Joshua is also a joy to work with. He has a great sense of humor and a positive attitude that makes him a pleasure to be around. He is proactive and always willing to lend a helping hand to his colleagues, making him an invaluable member of any team.
+      
+      Overall, I cannot recommend Joshua highly enough. He is a talented, dedicated, and all-around fantastic individual.`,
+      date: "May 27, 2023",
+    },
   ];
   return (
     <div className="testimonies-page">
@@ -33,6 +46,7 @@ function Testimonials() {
       </div>
       <TestimonyCard testimony={testimonies[0]} />
       <TestimonyCard testimony={testimonies[1]} />
+      <TestimonyCard testimony={testimonies[2]} />
     </div>
   );
 }

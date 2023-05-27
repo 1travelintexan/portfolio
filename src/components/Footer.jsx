@@ -9,7 +9,7 @@ function Footer() {
       <div className="footer-section">
         <h4>Joshua George</h4>
         <h6>Full-Stack MERN Developer</h6>
-        <h6>Web Dev Lead Teacher</h6>
+        <h6>Web Dev Remote Bootcamp Lead Teacher</h6>
         <h5 className="motto">
           It's the cave we most fear to enter, that holds the treasure we
           seek...

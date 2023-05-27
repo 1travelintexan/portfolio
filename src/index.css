@@ -178,7 +178,7 @@ body {
   width: 100vw;
 }
 .contact-card {
-  background-color: rgba(102, 102, 102, 0.807);
+  background-color: rgb(66, 67, 67);
   color: rgb(214, 217, 220);
   width: 90vw;
   margin: 20px 10px;
@@ -201,7 +201,7 @@ body {
   margin-bottom: 20px;
 }
 .about-card {
-  background-color: rgba(102, 102, 102, 0.807);
+  background-color: rgb(66, 67, 67);
   color: rgb(214, 217, 220);
   width: 90vw;
   margin: 20px 10px;

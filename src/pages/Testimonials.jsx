@@ -1,5 +1,8 @@
 import React from "react";
 import TestimonyCard from "../components/TestimonyCard";
+import RicoImg from "../assets/rico.png";
+import MatImg from "../assets/mat.png";
+import DanielImg from "../assets/daniel.png";
 
 function Testimonials() {
   const testimonies = [
@@ -17,6 +20,7 @@ function Testimonials() {
   bullshit kind of guy with a bag of interesting stories. Somebody you
   can be glad to have on your team.`,
       date: "May 23, 2023",
+      image: RicoImg,
     },
     {
       name: "Mathieu",
@@ -24,6 +28,7 @@ function Testimonials() {
       relation: "Co-Worker",
       comment: `Josh is the type of person who shows up early and stays late, he puts all of his effort into whatever project he is working on. He is kind, funny and honest and it's with these characteristics in mind that I would happily recommend him for any team that is considering him. They would be lucky to have him because I would like to see him stay in mine.`,
       date: "May 26, 2023",
+      image: MatImg,
     },
     {
       name: "Daniel ",
@@ -37,6 +42,7 @@ function Testimonials() {
       
       Overall, I cannot recommend Joshua highly enough. He is a talented, dedicated, and all-around fantastic individual.`,
       date: "May 27, 2023",
+      image: DanielImg,
     },
   ];
   return (

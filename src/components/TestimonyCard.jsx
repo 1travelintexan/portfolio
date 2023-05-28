@@ -8,9 +8,17 @@ export default function TestimonyCard({ testimony }) {
   return (
     <Card className="testimony-card">
       <CardContent>
-        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-          {testimony.name}
-        </Typography>
+        <div className="testimony-img-container">
+          <img
+            src={testimony.image}
+            alt={testimony.name}
+            className="testimony-image"
+          />
+
+          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+            {testimony.name}
+          </Typography>
+        </div>
         <Typography variant="h5" component="div">
           {testimony.occupation}
         </Typography>

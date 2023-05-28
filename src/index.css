@@ -68,11 +68,22 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.testimony-card {
-  width: 40%;
-  background-color: rgb(232, 228, 228) !important;
+.testimony-img-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.testimony-image {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 2rem;
   margin: 20px;
-  box-shadow: 0 0 20px gray !important;
+}
+.testimony-card {
+  width: 90%;
+  background-color: rgb(165, 163, 163) !important;
+  margin: 20px;
+  box-shadow: 0 0 20px rgb(21, 21, 21) !important;
 }
 /* footer section */
 .footer {
@@ -336,6 +347,12 @@ body {
   #map {
     height: 600px !important;
     width: 850px !important;
+  }
+
+  /* tesimony page */
+  .testimony-card {
+    width: 40%;
+    margin: 40px;
   }
 
   /* footer section  */

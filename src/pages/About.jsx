@@ -9,7 +9,12 @@ export default function Contact() {
         <article className="dark">About:</article>
       </div>
       <CardContent className="about-card">
-        <Typography variant="h2" component="div" color="white" sx={{ mb: 5 }}>
+        <Typography
+          variant="h4"
+          component="section"
+          color="white"
+          sx={{ mb: 3 }}
+        >
           Hi, I'm Joshua:
         </Typography>
         <div className="row-about">
@@ -31,8 +36,7 @@ export default function Contact() {
               conceptualized, debugged and help deploy over 200 team projects.
             </Typography>
             <Typography sx={{ mb: 2 }} color="white" variant="h6">
-              -A forever student of coding, languages & cultures around the
-              world.
+              -A forever student of Life, Travelling & of course programming.
             </Typography>
           </section>
         </div>

@@ -9,7 +9,7 @@ import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 
 export default function MediaCard({ image, info, title, url, github }) {
   return (
-    <Card sx={{ width: 355, minHeight: 350 }} id="media-card">
+    <Card sx={{ width: 325, minHeight: 350 }} id="media-card">
       <CardMedia image={image} id="media-card-image" />
       <CardContent>
         <Typography gutterBottom variant="h4" component="div">

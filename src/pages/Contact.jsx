@@ -64,11 +64,8 @@ export default function Contact() {
           </Marker>
         </MapContainer>
         <div className="contact-form-container">
-          <h3>Let's Collaborate</h3>
-          <h5>
-            I am open to any new ideas or possible future projects, I look
-            forward to hearing from you!
-          </h5>
+          <h3>Let's Collaborate!</h3>
+          <h5>I am open to any new ideas or possible future projects.</h5>
           <form ref={form} onSubmit={handleEmail} className="contact-form">
             <label>Name:</label>
             <input type="text" name="name" />
@@ -84,13 +81,13 @@ export default function Contact() {
         </div>
       </CardContent>
       <div>
-        <Typography variant="h4" component="div" color="gray" sx={{ mb: 0 }}>
+        <Typography variant="h4" component="div" color="white" sx={{ mb: 0 }}>
           Whatsapp:
         </Typography>
         <Typography sx={{ mb: 1 }} variant="h6" className="contact-link">
           +34 662 172 121
         </Typography>
-        <Typography variant="h4" color="gray" component="div" sx={{ mb: 0 }}>
+        <Typography variant="h4" color="white" component="div" sx={{ mb: 0 }}>
           LinkedIn:
         </Typography>
         <Typography sx={{ mb: 1 }} variant="h6">
@@ -102,7 +99,7 @@ export default function Contact() {
             https://www.linkedin.com/in/-joshua-george/
           </Link>
         </Typography>
-        <Typography variant="h4" component="div" color="gray" sx={{ mb: 0 }}>
+        <Typography variant="h4" component="div" color="white" sx={{ mb: 0 }}>
           Github:
         </Typography>
         <Typography sx={{ mb: 5 }} color="text.secondary" variant="h6">

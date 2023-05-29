@@ -15,23 +15,25 @@ export default function TestimonyCard({ testimony }) {
             className="testimony-image"
           />
 
-          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+          <Typography sx={{ fontSize: 14 }} color="white" gutterBottom>
             {testimony.name}
           </Typography>
         </div>
         <Typography variant="h5" component="div">
           {testimony.occupation}
         </Typography>
-        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+        <Typography sx={{ mb: 1.5 }} color="white">
           {testimony.relation} - ({testimony.date})
         </Typography>
-        <Typography variant="body2">{testimony.comment}</Typography>
+        <Typography variant="body2" color="white">
+          {testimony.comment}
+        </Typography>
       </CardContent>
       <CardActions>
         <Link
-          size="small"
           to={`https://www.linkedin.com/in/-joshua-george/details/recommendations/?detailScreenTabIndex=0`}
           target="_blank"
+          className="testimony-link"
         >
           Link
         </Link>

@@ -70,9 +70,14 @@ body {
 }
 .testimony-card {
   width: 90%;
-  background-color: rgb(165, 163, 163) !important;
+  background-color: rgb(114, 112, 112) !important;
   margin: 20px;
   box-shadow: 0 0 20px rgb(21, 21, 21) !important;
+}
+.testimony-link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(48, 148, 255);
 }
 /* footer section */
 .footer {

@@ -21,19 +21,7 @@ body {
 #nav {
   background-color: rgb(56, 56, 57) !important;
 }
-
-/* projects page */
-.projects-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.projects-page {
-  margin: 50px 0px;
-}
 .my-nav {
-  padding: 10px;
   min-height: 30vh;
   background-image: url("./assets/Austin.png");
   background-repeat: no-repeat;
@@ -108,15 +96,11 @@ body {
   flex-direction: column;
 }
 .footer-section h4 {
-  font-size: 3rem;
-}
-.footer-icon {
-  width: 3.2rem;
-  margin: 5px;
+  font-size: 2rem;
 }
 .footer-section p {
   font-size: 1.2rem;
-  margin: 5px;
+  margin: 5px 0;
 }
 .footer-icons {
   display: flex;
@@ -140,20 +124,28 @@ body {
   display: flex;
 }
 #media-card {
-  margin: 10px;
+  margin: 20px 0;
   box-shadow: 0 10px 10px rgb(22, 21, 21);
-  background-color: rgb(66, 67, 67);
+  background-color: rgb(75, 79, 92);
   color: aliceblue;
 }
 #media-card-image {
   height: 14rem;
-  object-fit: contain;
+  object-fit: cover;
+}
+/* projects page */
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .projects-header {
   color: rgb(202, 202, 202);
   font-family: "Times New Roman", Times, serif;
   font-size: 3rem;
   padding-left: 10px;
+  width: 80vw;
 }
 .project-link {
   font-size: 1.5rem;
@@ -181,11 +173,12 @@ body {
 .logos-div {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  justify-content: center;
 }
 .logo {
   height: 2rem;
   margin: 10px;
+  text-align: center;
 }
 .contact-page {
   display: flex;
@@ -286,10 +279,7 @@ body {
     text-shadow: 0 0 20px rgb(70, 70, 70);
   }
   .projects-page {
-    background-color: rgba(29, 33, 47, 0.463);
-    color: aliceblue;
-    margin: 30px;
-    border-radius: 1rem;
+    margin: 30px 0;
   }
   .projects-header {
     font-size: 4rem;
@@ -366,10 +356,6 @@ body {
   .footer-section {
     min-height: 25vh;
     margin: 10px;
-  }
-  .footer-icon {
-    width: 4rem;
-    margin: 15px;
   }
   .motto {
     font-size: 1.8rem;

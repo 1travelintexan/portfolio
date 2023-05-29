@@ -23,24 +23,23 @@ function Footer() {
             target="_blank"
             className="footer-icon-contact"
           >
-            <LinkedInIcon sx={{ fontSize: 60 }} />
+            <LinkedInIcon sx={{ fontSize: 40 }} />
           </Link>
           <Link
             to="https://github.com/1travelintexan"
             target="_blank"
             className="footer-icon-contact"
           >
-            <GitHubIcon sx={{ fontSize: 60 }} />
+            <GitHubIcon sx={{ fontSize: 40 }} />
           </Link>
           <Link
             onClick={() => (window.location = "mailto:horheyinc8@gmail.com")}
             className="footer-icon-contact"
           >
-            <EmailRoundedIcon sx={{ fontSize: 60 }} />
+            <EmailRoundedIcon sx={{ fontSize: 40 }} />
           </Link>
           <Link className="footer-icon-contact">
-            <WhatsAppIcon sx={{ fontSize: 60 }} />
-            <p>+34 662 572 121</p>
+            <WhatsAppIcon sx={{ fontSize: 40 }} />
           </Link>
         </div>
       </div>

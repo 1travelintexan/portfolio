@@ -19,7 +19,7 @@ export default function TestimonyCard({ testimony }) {
             {testimony.name}
           </Typography>
         </div>
-        <Typography variant="h5" component="div">
+        <Typography variant="h5" component="div" color="white">
           {testimony.occupation}
         </Typography>
         <Typography sx={{ mb: 1.5 }} color="white">

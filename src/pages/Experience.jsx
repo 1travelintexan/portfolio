@@ -1,11 +1,6 @@
 import OutlinedCard from "../components/OutlinedCard";
-
 function Home() {
-  return (
-    <div className="home-page">
-      <OutlinedCard />
-    </div>
-  );
+  return <OutlinedCard />;
 }
 
 export default Home;

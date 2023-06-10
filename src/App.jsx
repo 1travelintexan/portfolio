@@ -14,7 +14,10 @@ function App() {
         <Route path="" element={<About />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" exact element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/react" element={<Projects />} />
+        <Route path="/projects/HTML-CSS" element={<Projects />} />
+        <Route path="/projects/typescript" element={<Projects />} />
+        <Route path="/projects/next" element={<Projects />} />
         <Route path="/testimonials" element={<Testimonials />} />
       </Route>
       <Route path="*" element={<NotFound />} />

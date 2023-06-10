@@ -29,8 +29,8 @@ export default function Contact() {
               others & learning new tech stacks.
             </Typography>
             <Typography sx={{ mb: 2 }} color="white" variant="h6">
-              -Specializing in HTML, CSS, Javascript and React with experience
-              in Next JS & Typescript.
+              -Specializing in HTML, CSS, Javascript, Restful API's and React
+              with experience in Next JS & Typescript.
             </Typography>
             <Typography sx={{ mb: 2 }} color="white" variant="h6">
               -2 years of educating future MERN developers. I have

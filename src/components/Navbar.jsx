@@ -24,7 +24,7 @@ function CollapsibleExample() {
                 TypeScript
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/projects/next">Next JS</NavDropdown.Item>
+              <NavDropdown.Item href="/projects/ssr">SSR</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link eventKey={2} href="/experience">
               Experience

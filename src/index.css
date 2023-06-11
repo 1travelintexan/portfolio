@@ -309,6 +309,7 @@ body {
   }
   .projects-page {
     margin: 30px 0;
+    width: 100vw;
   }
   .projects-header {
     font-size: 4rem;

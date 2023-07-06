@@ -1,5 +1,5 @@
 import lifesABeachImg from "../assets/life-a-beach.png";
-import starWarsImg from "../assets/starWars2.png";
+import starWarsImg from "../assets/starWars.png";
 import spotifyImg from "../assets/spotify.png";
 import MediaCard from "../components/MediaCard";
 
